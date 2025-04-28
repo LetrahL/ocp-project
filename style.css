@@ -3,21 +3,58 @@ body{
     background-color: #448cebd2;
     font-family: "sansation", sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 40px 20px;
     color: #feffff;
-    text-align: center;
-    list-style-position: inside;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-height: 100vh;
+
 }
+
+  .card{
+    background-color: #2a2a2a85;
+    box-shadow: 0 8px 8px rgb(0, 0, 0);
+    padding: 20px; 
+    max-width: 900px;
+    border-radius: 20px;
+    padding: 30px;
+}  
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button{
+    background-color: #2a2a2a;
+    color: #feffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #feffff;
+    color: #2a2a2a;
+    transform: scale(1.05);
+}
+
 h1{
     text-align: center;
     font-size: 2.5em;
     margin-top: 20px;
 }
+
 h2{
     text-align: center;
     font-size: 2em;
     margin-top: 20px;
 }
+
 .introduction img{
     width: 100%;
     height: auto;
@@ -28,11 +65,14 @@ h2{
     box-shadow: 0 8px 8px rgb(0, 0, 0);
     transition: all 0.3s ease-in-out;
     filter: brightness(0.9);
+    object-fit: cover;
 }
+
 :hover img{
     transform: scale(1.05);
     filter: brightness(1);
 }
+
 .introduction{
     margin: 0 auto;
     padding: 20px;
@@ -41,4 +81,24 @@ h2{
     background-color: #2a2a2a;
     border-radius: 10px;
     box-shadow: 0 8px 8px rgb(0, 0, 0);
+}
+
+.types{
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgb(0, 0, 0);
+    max-width: 900px;
+}
+
+footer{
+    margin: 0 auto;;
+    text-align: center;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgb(0, 0, 0);
+    padding: 5px;
+    max-width: 900px;
 }
