@@ -88,6 +88,26 @@ h2{
     box-shadow: 0 8px 8px rgb(0, 0, 0);
 }
 
+.types{
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgb(0, 0, 0);
+    max-width: 900px;
+}
+
+.benefits img{
+    width: 20%;
+    height: auto;
+    max-width: 900px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgb(0, 0, 0);
+    align-items: center
+}
+
 footer{
     margin: 0 auto;;
     text-align: center;
