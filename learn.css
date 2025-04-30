@@ -9,11 +9,13 @@ body{
     position: relative;
     min-height: 100vh;
     font-size: 1.2em;
+    background-image: url(assets/luis-reyes-mTorQ9gFfOg-unsplash.jpg);
+    background-size: cover;
 
 }
 
   .card{
-    background-color: #2a2a2a85;
+    background-color: #2a2a2ae5;
     box-shadow: 0 8px 8px rgb(0, 0, 0);
     padding: 20px; 
     max-width: 900px;
