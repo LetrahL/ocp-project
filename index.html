@@ -1,45 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="base.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="connects" href="resources.html">
-    <title>Why is excercise important?</title>
-    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Why Exercise Matters | Exercise Hub</title>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="base.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Sansation:wght@300;400;700&display=swap" 
+    rel="stylesheet"
+  />
 </head>
 <body>
-    <main class="card">
+  <main class="card" role="main">
     <header>
-        <div class="buttons">
-        <button onclick="location.href='index.html'">Home</button>
-        <button onclick="location.href='learn.html'">Learn</button>
-        <button onclick="location.href='resources.html'">Resources</button>
-        <button onclick="location.href='about.html'">About</button>
-        </div>
-        <h1>Exercise and Fitness Hub</h1>
-        
+      <nav class="buttons" aria-label="Main navigation">
+        <a href="index.html"><button>Home</button></a>
+        <a href="learn.html"><button>Learn</button></a>
+        <a href="resources.html"><button>Resources</button></a>
+        <a href="about.html"><button>About</button></a>
+      </nav>
+      <h1>Exercise and Fitness Hub</h1>
     </header>
-        <div class="introduction">
-            <a href="learn.html">
-                <img src="./assets/risen-wang-20jX9b35r_M-unsplash.jpg" alt="weights" class="exercise-image">
-            </a>
-        <h2>Welcome to the Exercise Hub</h2>
-      <p>Your go-to resource for learning about exercise, staying motivated, and accessing curated fitness materials.</p>
-      </div>
-    <footer>
-        <p>Follow me on <a href="https://www.facebook.com">Facebook</a>, <a href="https://www.twitter.com">Twitter</a>, and <a href="https://www.instagram.com">Instagram</a>.</p>
-        <p>Also, this is a test website, so don't take it too seriously.</p>
-        <p>&copy; Harrison Hartel</p>
-        </footer>
-        <button class="arrow-button next" aria-label="Next" onclick="location.href='learn.html'">❯</button>
-    </main>
-    
 
-    
+    <section class="introduction">
+      <a href="learn.html">
+        <img 
+          src="./assets/risen-wang-20jX9b35r_M-unsplash.jpg" 
+          alt="Click to learn more about weight training" 
+          class="exercise-image"
+        />
+      </a>
+      <h2>Welcome to the Exercise Hub</h2>
+      <p>
+        Your go-to resource for learning about exercise, staying motivated,
+        and accessing curated fitness materials.
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        Follow me on 
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>, 
+        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>, and 
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>.
+      </p>
+      <p>This is a test website, so don't take it too seriously.</p>
+      <p>&copy; Harrison Hartel</p>
+    </footer>
+
+    <button 
+      class="arrow-button next" 
+      aria-label="Next page" 
+      onclick="location.href='learn.html'"
+    >
+      ❯
+    </button>
+  </main>
 </body>
 </html>
