@@ -11,6 +11,7 @@ body{
     font-size: 1.2em;
     background-image: url(assets/luis-reyes-mTorQ9gFfOg-unsplash.jpg);
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
@@ -126,8 +127,7 @@ h2{
     padding: 40px;
     justify-content: space-between;
     background-image: url(assets/max-bender-YOk0D5sz3e4-unsplash.jpg);
-    background-size: 900px 500px;
-    background-repeat: no-repeat;
+    background-size: 900px 400%;
     background-position: center; 
 }  
 

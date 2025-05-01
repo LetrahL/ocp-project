@@ -11,6 +11,7 @@ body{
     font-size: 1.2em;
     background-image: url(assets/luis-reyes-mTorQ9gFfOg-unsplash.jpg);
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
